@@ -5,9 +5,22 @@
 **Software that respects your body, your data and your time.**<br>
 Six apps and services, built in the open. Read the code, run it yourself, keep your data.
 
-[somalabs.me](https://somalabs.me) · [All repositories](https://github.com/orgs/soma-intelligence/repositories)
+[Quick start](#quick-start) · [somalabs.me](https://somalabs.me) · [All repositories](https://github.com/orgs/soma-intelligence/repositories)
 
 </div>
+
+## Quick start
+
+The fastest way to try each one:
+
+| Project | Try it |
+|---|---|
+| [Open Health Sync](https://github.com/soma-intelligence/open-health-sync) | Sign up for the [free hosted beta](https://app.openhealthsync.com/portal/signup), or [self-host it with Docker](https://github.com/soma-intelligence/open-health-sync#try-it) |
+| [Prism](https://github.com/soma-intelligence/prism) | Join the [TestFlight public beta](https://testflight.apple.com/join/15Bvq8Dr) on iPhone or iPad |
+| [OnePass](https://github.com/soma-intelligence/onepass) | Get it free on the [App Store](https://apps.apple.com/app/id6831411523) |
+| [Soma Relay](https://github.com/soma-intelligence/soma-relay) | [Run your own node](https://github.com/soma-intelligence/soma-relay#run-your-own-node) with Docker and open it in a browser |
+| [Soma Flight](https://github.com/soma-intelligence/Soma_Flight) | Join the [TestFlight public beta](https://testflight.apple.com/join/RWVpDdDF) on iPhone |
+| [ViaForm](https://github.com/soma-intelligence/ViaForm) | Build it from source: `git clone --recursive https://github.com/soma-intelligence/ViaForm.git && cd ViaForm/electron && npm ci && npm start` |
 
 <br>
 

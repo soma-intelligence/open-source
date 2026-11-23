@@ -1,0 +1,29 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1280px;height:640px;overflow:hidden}
+body{background:radial-gradient(120% 140% at 0% 0%,#22232a 0%,#121216 55%,#09090a 100%);font-family:-apple-system,"SF Pro Display",system-ui,sans-serif;color:#fff;position:relative}
+.text{position:absolute;left:80px;top:0;bottom:0;width:560px;display:flex;flex-direction:column;justify-content:center}
+h1{font-size:84px;font-weight:700;letter-spacing:-2.6px;line-height:1.02}
+p{margin-top:26px;font-size:31px;line-height:1.25;color:#d2d2d8;font-weight:500;letter-spacing:-.3px}
+.tag{margin-top:34px;font-size:20px;color:#8c8c96;letter-spacing:.2px;white-space:nowrap}
+.grid{position:absolute;left:740px;top:0;bottom:0;width:480px;display:grid;grid-template-columns:repeat(3,1fr);align-content:center;row-gap:40px}
+.app{display:flex;flex-direction:column;align-items:center}
+.app img{width:120px;height:120px;border-radius:27px;display:block;box-shadow:0 18px 36px rgba(0,0,0,.55),0 0 0 1px rgba(255,255,255,.08)}
+.app span{margin-top:16px;font-size:20px;font-weight:600;color:#e6e6ea;letter-spacing:-.1px;white-space:nowrap}
+</style></head><body>
+<!-- GitHub social preview, 1280 x 640. Render from the repo root:
+chrome-headless-shell --headless --hide-scrollbars --allow-file-access-from-files --window-size=1280,640 --screenshot="$PWD/docs/assets/brand/social-preview.png" "file://$PWD/docs/assets/brand/social-preview.html" -->
+<div class="text">
+<h1>Soma Labs<br>open source</h1>
+<p>Six apps and services for health, privacy and making things, built in the open.</p>
+<div class="tag">Free · AGPL and GPL · github.com/soma-intelligence/open-source</div>
+</div>
+<div class="grid">
+<div class="app"><img src="../icons/open-health-sync.svg" alt=""><span>Open Health Sync</span></div>
+<div class="app"><img src="../icons/prism.png" alt=""><span>Prism</span></div>
+<div class="app"><img src="../icons/onepass.svg" alt=""><span>OnePass</span></div>
+<div class="app"><img src="../icons/soma-relay.png" alt=""><span>Soma Relay</span></div>
+<div class="app"><img src="../icons/soma-flight.png" alt=""><span>Soma Flight</span></div>
+<div class="app"><img src="../icons/viaform.png" alt=""><span>ViaForm</span></div>
+</div>
+</body></html>
